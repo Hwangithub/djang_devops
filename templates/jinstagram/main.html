@@ -18,7 +18,7 @@
     <!-- Jquery -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <title>Hello, world!</title>
+    <title><Django to EC2></title>
 
     <style>
         .box {
@@ -70,36 +70,22 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed;width: 100%; z-index: 999">
-    <div class="container-fluid" style="justify-content: space-between;flex-wrap: nowrap; min-width: 1000px">
-        <a class="navbar-brand" href="main"><img style="width: 100px"
-                                                 src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png">
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid"
+         style="justify-content: space-between; background: yellow; flex-wrap: nowrap; min-width: 1000px">
+        <a class="navbar-brand" href="#"><img style="width: 150px"
+                                              src="https://play-lh.googleusercontent.com/LZdsQGEbRqcZIjvWdiJTjlaGQJQjP097FAIvl4XfOi_XHagmC83Lc04PDxaq8Ml6xJk=w416-h235-rw">
         </a>
-        <input class="form-control me-2" style="width: 400px" type="search" placeholder="Search" aria-label="Search">
-        <div style="display: flex">
-            <a href="main" style="color: black"><span class="material-icons"
-                                                      style="padding-right: 10px"> home</span></a>
-            <span id="nav_bar_add_box" class="material-icons-outlined" style="padding-right: 10px">add_box</span>
 
-            <div class="dropdown">
-                <a href="#" role="button" id="dropdownMenuLink"
-                   data-bs-toggle="dropdown" aria-expanded="false">
-                    <div class="box" style="width: 25px; height: 25px">
+        <input class="form-control me-2" style="width: 350px" type="search" placeholder="Search"
+               aria-label="Search">
 
-                        <img class="profile"
-                             src="{% get_media_prefix %}{{ user.profile_image }}">
-
-                    </div>
-                </a>
-
-                <ul class="dropdown-menu" style="left:-158px" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="/content/profile">프로필</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="/user/logout">로그아웃</a></li>
-                </ul>
-            </div>
+        <div>
+            <span class="material-icons"> home </span>
+            <span class="material-icons-outlined"> send </span>
+            <span id="nav_bar_add_box" class="material-icons-outlined"> add_box </span>
+            <span class="material-icons-outlined">explore</span>
+            <span class="material-icons-outlined">favorite_border</span>
         </div>
     </div>
 </nav>
