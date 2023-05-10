@@ -8,32 +8,34 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="e21df772-a3b6-4bdd-9fbd-a10802b2fa01">
+    <data-source source="LOCAL" name="@localhost" uuid="699a3071-16dc-47eb-a4d0-a46d70532096">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost [2]" uuid="7080f830-3f8d-4f07-807f-05eea787270c">
+    <data-source source="LOCAL" name="@localhost [2]" uuid="ef02e0e3-683c-41c0-98aa-b223e9c6291d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost [3]" uuid="fe99270d-d9d0-4e32-b6f0-129a7fcd9a67">
+    <data-source source="LOCAL" name="@localhost [3]" uuid="bdd4851c-8795-4a9b-aa71-301c1a164de9">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="youtube_devops_mysql" uuid="b60fd4e0-395a-40d8-9af2-7e9f79d8c6e7">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="youtube_devops_rds" uuid="4d618606-b9ad-4160-b5bc-0dd183d8226b">
+      <driver-ref>mysql_aurora</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://13.56.213.223:3306</jdbc-url>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/Jinstagram/settings.py</remarks>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://db-youtube-devops-instance-1.c0yz9ahgb9ne.us-west-1.rds.amazonaws.com:3306/youtube_devops</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
