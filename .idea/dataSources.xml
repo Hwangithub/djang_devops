@@ -38,5 +38,12 @@
       <jdbc-url>jdbc:mariadb://db-youtube-devops-instance-1.c0yz9ahgb9ne.us-west-1.rds.amazonaws.com:3306/youtube_devops</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="youtube_devops_mysql" uuid="17be3ca8-7cac-4a5d-8a37-17d21c613bc7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://54.183.73.90:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

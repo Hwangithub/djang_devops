@@ -89,7 +89,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': '54.183.73.90',
-        'NAME': 'djang2_devops',
+        'NAME': 'youtube_devops',
         'USER': 'root',
         'PASSWORD': 'hwan12345',
         'PORT': '3306',
